@@ -11,6 +11,13 @@
 		1907C67428C66415009E72A3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1907C67328C66415009E72A3 /* ContentView.swift */; };
 		1907C67628C66416009E72A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1907C67528C66416009E72A3 /* Assets.xcassets */; };
 		1907C67928C66416009E72A3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1907C67828C66416009E72A3 /* Preview Assets.xcassets */; };
+		1907C68D28C66D51009E72A3 /* homeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1907C68C28C66D51009E72A3 /* homeScreen.swift */; };
+		1907C68F28C66D6C009E72A3 /* searchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1907C68E28C66D6C009E72A3 /* searchScreen.swift */; };
+		1907C69128C66D7D009E72A3 /* savedScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1907C69028C66D7D009E72A3 /* savedScreen.swift */; };
+		1907C69328C66D94009E72A3 /* timeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1907C69228C66D94009E72A3 /* timeScreen.swift */; };
+		1907C69528C66DA2009E72A3 /* accountScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1907C69428C66DA2009E72A3 /* accountScreen.swift */; };
+		19579B8128C7147C005B3918 /* searchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19579B8028C7147C005B3918 /* searchBar.swift */; };
+		19579B8328C722E0005B3918 /* CarCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19579B8228C722E0005B3918 /* CarCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +26,13 @@
 		1907C67328C66415009E72A3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1907C67528C66416009E72A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1907C67828C66416009E72A3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1907C68C28C66D51009E72A3 /* homeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeScreen.swift; sourceTree = "<group>"; };
+		1907C68E28C66D6C009E72A3 /* searchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchScreen.swift; sourceTree = "<group>"; };
+		1907C69028C66D7D009E72A3 /* savedScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = savedScreen.swift; sourceTree = "<group>"; };
+		1907C69228C66D94009E72A3 /* timeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timeScreen.swift; sourceTree = "<group>"; };
+		1907C69428C66DA2009E72A3 /* accountScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = accountScreen.swift; sourceTree = "<group>"; };
+		19579B8028C7147C005B3918 /* searchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchBar.swift; sourceTree = "<group>"; };
+		19579B8228C722E0005B3918 /* CarCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +65,8 @@
 		1907C67028C66415009E72A3 /* demoAssignmnet */ = {
 			isa = PBXGroup;
 			children = (
+				19579B7F28C7145B005B3918 /* components */,
+				1907C68B28C66D3F009E72A3 /* views */,
 				1907C67128C66415009E72A3 /* demoAssignmnetApp.swift */,
 				1907C67328C66415009E72A3 /* ContentView.swift */,
 				1907C67528C66416009E72A3 /* Assets.xcassets */,
@@ -65,6 +81,27 @@
 				1907C67828C66416009E72A3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1907C68B28C66D3F009E72A3 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				1907C68C28C66D51009E72A3 /* homeScreen.swift */,
+				1907C68E28C66D6C009E72A3 /* searchScreen.swift */,
+				1907C69028C66D7D009E72A3 /* savedScreen.swift */,
+				1907C69228C66D94009E72A3 /* timeScreen.swift */,
+				1907C69428C66DA2009E72A3 /* accountScreen.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		19579B7F28C7145B005B3918 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				19579B8028C7147C005B3918 /* searchBar.swift */,
+				19579B8228C722E0005B3918 /* CarCard.swift */,
+			);
+			path = components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +174,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1907C69328C66D94009E72A3 /* timeScreen.swift in Sources */,
+				1907C68D28C66D51009E72A3 /* homeScreen.swift in Sources */,
 				1907C67428C66415009E72A3 /* ContentView.swift in Sources */,
+				1907C69128C66D7D009E72A3 /* savedScreen.swift in Sources */,
+				1907C69528C66DA2009E72A3 /* accountScreen.swift in Sources */,
+				19579B8128C7147C005B3918 /* searchBar.swift in Sources */,
 				1907C67228C66415009E72A3 /* demoAssignmnetApp.swift in Sources */,
+				19579B8328C722E0005B3918 /* CarCard.swift in Sources */,
+				1907C68F28C66D6C009E72A3 /* searchScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
